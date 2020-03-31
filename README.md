@@ -1,2 +1,0 @@
-# Spaceteam
-LightHouse Spaceteam
