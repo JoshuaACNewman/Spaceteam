@@ -8,7 +8,6 @@ GAME
 	Mode = CAREER
 	Status = 1
 	Seed = 610407685
-	ROCSeed = 973960024
 	scene = 5
 	editor = None
 	flag = Squad/Agencies/StrutCo
@@ -19,9 +18,6 @@ GAME
 	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  - 
 	versionFull = 1.9.1.2788 (OSXPlayer)
 	versionCreated = 1.9.1.2788 (OSXPlayer)
-	RemovedROCs
-	{
-	}
 	PARAMETERS
 	{
 		preset = Custom
@@ -198,14 +194,14 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 500000
+		funds = 495600
 	}
 	SCENARIO
 	{
 		name = ScenarioNewGameIntro
 		scene = 5, 6, 8
 		kscComplete = True
-		editorComplete = False
+		editorComplete = True
 		tsComplete = False
 	}
 	SCENARIO
@@ -240,6 +236,7 @@ GAME
 			id = basicRocketry
 			state = Available
 			cost = 5
+			part = fuelTankSmallFlat
 		}
 		Tech
 		{
@@ -258,6 +255,7 @@ GAME
 			id = engineering101
 			state = Available
 			cost = 5
+			part = Decoupler.1
 		}
 		Tech
 		{
@@ -270,6 +268,7 @@ GAME
 			id = advRocketry
 			state = Available
 			cost = 45
+			part = liquidEngine3.v2
 		}
 		Tech
 		{
@@ -594,13 +593,10 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 10.099999999999874
+		update = -1000
 		version = 1.9.1
 		WEIGHTS
 		{
-			ROCScienceRetrievalContract = 30
-			ROCScienceArmContract = 30
-			DeployedScienceContract = 30
 			SentinelContract = 30
 			RecoverAsset = 30
 			PlantFlag = 30
@@ -869,7 +865,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.9.1
-		UT = 19.899999999999665
+		UT = 28.119999999999489
 		activeVessel = 0
 		mapViewFiltering = 0
 		commNetUIModeTracking = Network
@@ -905,7 +901,6 @@ GAME
 			lightG = 0.5176
 			lightB = 0
 			completedFirstEVA = False
-			suit = Default
 			hero = True
 			CAREER_LOG
 			{
@@ -941,7 +936,6 @@ GAME
 			lightG = 0.5176
 			lightB = 0
 			completedFirstEVA = False
-			suit = Default
 			hero = True
 			CAREER_LOG
 			{
@@ -977,7 +971,6 @@ GAME
 			lightG = 0.5176
 			lightB = 0
 			completedFirstEVA = False
-			suit = Default
 			hero = True
 			CAREER_LOG
 			{
@@ -1013,7 +1006,6 @@ GAME
 			lightG = 0.5176
 			lightB = 0
 			completedFirstEVA = False
-			suit = Default
 			hero = True
 			CAREER_LOG
 			{
