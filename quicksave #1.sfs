@@ -8,7 +8,7 @@ GAME
 	Mode = CAREER
 	Status = 1
 	Seed = 610407685
-	scene = 5
+	scene = 7
 	editor = None
 	flag = Squad/Agencies/StrutCo
 	launchID = 3
@@ -194,7 +194,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 690600
+		funds = 724200
 	}
 	SCENARIO
 	{
@@ -216,13 +216,13 @@ GAME
 			}
 			RecordsAltitude
 			{
-				reached = 50.920000000002361
-				record = 1791.3618618093897
+				reached = 141.00438964843363
+				record = 5600.8769320873544
 			}
 			RecordsSpeed
 			{
-				reached = 40.880000000000791
-				record = 344.69721378013224
+				reached = 113.71999999999451
+				record = 374.75291635732134
 			}
 			RecordsDistance
 			{
@@ -327,7 +327,7 @@ GAME
 	{
 		name = Reputation
 		scene = 7, 8, 5, 6
-		rep = 11.9999933
+		rep = 13.9999924
 	}
 	SCENARIO
 	{
@@ -616,7 +616,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 97.139999999997812
+		update = 317.38739990234728
 		version = 1.9.1
 		WEIGHTS
 		{
@@ -1262,7 +1262,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.9.1
-		UT = 97.439999999997752
+		UT = 317.46739990234727
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -1273,27 +1273,27 @@ GAME
 			persistentId = 1702113461
 			name = Spacefart 1
 			type = Probe
-			sit = PRELAUNCH
-			landed = True
+			sit = FLYING
+			landed = False
 			skipGroundPositioning = False
-			vesselSpawning = True
+			vesselSpawning = False
 			launchedFrom = LaunchPad
-			landedAt = LaunchPad
-			displaylandedAt = LaunchPad
+			landedAt = 
+			displaylandedAt = 
 			splashed = False
-			met = 0
-			lct = 97.439999999997752
-			lastUT = 97.439999999997752
-			distanceTraveled = 0
+			met = 211.04739990235129
+			lct = 106.41999999999597
+			lastUT = 317.46739990234727
+			distanceTraveled = 15134.751949142392
 			root = 0
-			lat = -0.097207758089181584
-			lon = -74.557683386534123
-			alt = 70.191716478671879
-			hgt = 2.50076509
-			nrm = 0.000745236874,0.999999762,0
-			rot = -0.70098865,-0.0922178775,-0.0972654298,0.700464308
-			CoM = 0,-0.992586851,5.96046448E-08
-			stg = 1
+			lat = -0.098553835745249868
+			lon = -74.363968866415874
+			alt = 683.1332923641894
+			hgt = 744.606934
+			nrm = -0.184252933,0.959321022,0.213902116
+			rot = -0.381953299,0.470328838,-0.596698165,0.526169002
+			CoM = 1.87009573E-05,-1.19928157,2.49147415E-05
+			stg = 0
 			prst = False
 			ref = 813371298
 			ctrl = True
@@ -1305,18 +1305,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = 0.2
-			cHdg = 0.3
+			cPch = 1.488
+			cHdg = 0.368
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300816.93299416924
-				ECC = 0.99479860776834983
-				INC = 0.097207758584177642
-				LPE = 90
-				LAN = 107.07012808518073
-				MNA = 3.1415926535897887
-				EPH = 97.439999999997752
+				SMA = 301129.80305745522
+				ECC = 0.99478224846037711
+				INC = 0.098557609655029299
+				LPE = 90.498144871497018
+				LAN = 110.42219467600381
+				MNA = -3.1285007503277393
+				EPH = 317.46739990234727
 				REF = 1
 			}
 			PART
@@ -1344,10 +1344,10 @@ GAME
 				attN = bottom, 1
 				mass = 0.0500000007
 				shielded = False
-				temp = 310.44439997007174
-				tempExt = 310.52373357380037
-				tempExtUnexp = 310.52143046552652
-				staticPressureAtm = 0.98964138675730162
+				temp = 319.29206201949273
+				tempExt = 310.96842663774078
+				tempExtUnexp = 310.96857665783563
+				staticPressureAtm = 0.90271312338082899
 				expt = 0
 				state = 0
 				attached = True
@@ -1458,6 +1458,7 @@ GAME
 					Log
 					{
 						flight = 0
+						0 = Flight,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -1466,7 +1467,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9.9811111100222263
+					amount = 4.3392057420028589
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -1501,10 +1502,10 @@ GAME
 				attN = bottom, 6
 				mass = 0.0625
 				shielded = False
-				temp = 310.44391603911617
-				tempExt = 310.51355049092126
-				tempExtUnexp = 310.51342533773868
-				staticPressureAtm = 0.98972767628242198
+				temp = 321.67775627075775
+				tempExt = 317.34738858889938
+				tempExtUnexp = 318.33600925022404
+				staticPressureAtm = 0.90279316331556092
 				expt = 0.5
 				state = 0
 				attached = True
@@ -1553,7 +1554,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 45
+					amount = 0
 					maxAmount = 45
 					flowState = True
 					isTweakable = True
@@ -1564,7 +1565,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 55
+					amount = 0
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -1600,10 +1601,10 @@ GAME
 				srfN = srfAttach, 1,COL1
 				mass = 0.00999999978
 				shielded = False
-				temp = 310.44385231252761
-				tempExt = 310.44279299547679
-				tempExtUnexp = 310.44252008472159
-				staticPressureAtm = 0.9899040954424192
+				temp = 321.2159719989512
+				tempExt = 318.88110319952216
+				tempExtUnexp = 319.97942727792559
+				staticPressureAtm = 0.90295693270224209
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -1676,10 +1677,10 @@ GAME
 				srfN = srfAttach, 1,COL1
 				mass = 0.00999999978
 				shielded = False
-				temp = 310.44375546793162
-				tempExt = 310.43414403163604
-				tempExtUnexp = 310.43401994097081
-				staticPressureAtm = 0.98990402014614942
+				temp = 321.20433802358446
+				tempExt = 318.86158990941374
+				tempExtUnexp = 319.95717165572148
+				staticPressureAtm = 0.90295708329478164
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -1752,10 +1753,10 @@ GAME
 				srfN = srfAttach, 1,COL1
 				mass = 0.00999999978
 				shielded = False
-				temp = 310.44375545354808
-				tempExt = 310.43414270727101
-				tempExtUnexp = 310.43401863956785
-				staticPressureAtm = 0.98990402014614942
+				temp = 320.97270833648213
+				tempExt = 318.53084585214503
+				tempExtUnexp = 319.49200276575618
+				staticPressureAtm = 0.90295738447986051
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -1828,10 +1829,10 @@ GAME
 				srfN = srfAttach, 1,COL1
 				mass = 0.00999999978
 				shielded = False
-				temp = 310.44387301527888
-				tempExt = 310.4444398793438
-				tempExtUnexp = 310.44413270178649
-				staticPressureAtm = 0.98990402014614942
+				temp = 321.18761568725432
+				tempExt = 318.83564057345416
+				tempExtUnexp = 319.92501909135854
+				staticPressureAtm = 0.9029571585910513
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -1903,12 +1904,12 @@ GAME
 				attN = bottom, -1
 				mass = 1.5
 				shielded = False
-				temp = 310.44386755259006
-				tempExt = 310.40935589265655
-				tempExtUnexp = 310.40902060991056
-				staticPressureAtm = 0.98990612844170212
+				temp = 324.77472856787585
+				tempExt = 321.63529179316845
+				tempExtUnexp = 322.89377861259436
+				staticPressureAtm = 0.90295911629406456
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -1942,9 +1943,9 @@ GAME
 					isEnabled = True
 					independentThrottle = False
 					independentThrottlePercentage = 0
-					staged = False
-					flameout = False
-					EngineIgnited = False
+					staged = True
+					flameout = True
+					EngineIgnited = True
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -2032,7 +2033,7 @@ GAME
 					enableYaw = True
 					enablePitch = True
 					enableRoll = True
-					gimbalActive = False
+					gimbalActive = True
 					stagingEnabled = True
 					EVENTS
 					{
@@ -2072,7 +2073,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0
+					animState = 0.00101766072
 					stagingEnabled = True
 					EVENTS
 					{
@@ -2176,12 +2177,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961367773003794
+				temp = 305.7996578008815
+				tempExt = 305.5945632369677
+				tempExtUnexp = 4
+				staticPressureAtm = 0.90268684498269025
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -2213,8 +2214,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -2315,12 +2316,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961367773003794
+				temp = 305.82199836563257
+				tempExt = 305.61927491327526
+				tempExtUnexp = 4
+				staticPressureAtm = 0.90268714616776924
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -2352,8 +2353,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -2454,12 +2455,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961360243376817
+				temp = 305.79666297332375
+				tempExt = 305.59179609068474
+				tempExtUnexp = 4
+				staticPressureAtm = 0.9026872214640389
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -2491,8 +2492,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -2593,12 +2594,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961360243376817
+				temp = 305.82474700760491
+				tempExt = 305.62286336408704
+				tempExtUnexp = 4
+				staticPressureAtm = 0.90268729676030868
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -2630,8 +2631,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -2732,12 +2733,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961360243376817
+				temp = 305.87504306487216
+				tempExt = 305.66973857657615
+				tempExtUnexp = 4
+				staticPressureAtm = 0.90268729676030868
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -2769,8 +2770,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -2871,12 +2872,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961360243376817
+				temp = 315.28920838007951
+				tempExt = 315.37651385452466
+				tempExtUnexp = 4
+				staticPressureAtm = 0.9026872214640389
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -2908,8 +2909,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -3010,12 +3011,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961360243376817
+				temp = 305.81989972762881
+				tempExt = 305.61497385485973
+				tempExtUnexp = 4
+				staticPressureAtm = 0.90268699557522969
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -3047,8 +3048,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -3149,12 +3150,12 @@ GAME
 				srfN = srfAttach, 0,sphere
 				mass = 0.075000003
 				shielded = False
-				temp = 310.44389059925942
-				tempExt = 310.4520315754238
-				tempExtUnexp = 310.45140792535989
-				staticPressureAtm = 0.98961367773003794
+				temp = 307.5357524067262
+				tempExt = 307.37775630699718
+				tempExtUnexp = 4
+				staticPressureAtm = 0.90268714616776924
 				expt = 0.5
-				state = 0
+				state = 1
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -3186,8 +3187,8 @@ GAME
 				{
 					name = ModuleParachute
 					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
+					persistentState = DEPLOYED
+					animTime = 1
 					minAirPressureToOpen = 0.0199999996
 					deployAltitude = 2500
 					spreadAngle = 7
@@ -3259,7 +3260,7 @@ GAME
 			}
 			ACTIONGROUPS
 			{
-				Stage = False, 0
+				Stage = False, 161.964389648437
 				Gear = False, 0
 				Light = False, 0
 				RCS = False, 0
@@ -3296,7 +3297,7 @@ GAME
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
-				mainThrottle = 0
+				mainThrottle = 0.800000191
 			}
 			VESSELMODULES
 			{
@@ -3466,7 +3467,7 @@ GAME
 		MESSAGE
 		{
 			title = World First Milestones
-			message = The recent accomplishments of our space program have attracted contributions from numerous organizations!~n~nWe have broken a speed record of 25m/s.~n<color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1> 33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have launched our first vessel.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  5,600 </color>~n~n We have broken a speed record of 80m/s.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken an altitude record of 500m.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken a speed record of 250m/s.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#6dcff6><sprite="CurrencySpriteAsset" name="Science" tint=1> 1 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken a land distance record of 1,000m.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken a land distance record of 3,000m.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n
+			message = The recent accomplishments of our space program have attracted contributions from numerous organizations!~n~nWe have broken a speed record of 25m/s.~n<color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1> 33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have launched our first vessel.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  5,600 </color>~n~n We have broken a speed record of 80m/s.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken an altitude record of 500m.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken a speed record of 250m/s.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#6dcff6><sprite="CurrencySpriteAsset" name="Science" tint=1> 1 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken a land distance record of 1,000m.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken a land distance record of 3,000m.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n~n We have broken an altitude record of 2,000m.~n <color=#b4d455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  33,600 </color><color=#e0d503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 2 </color>~n
 			color = 3
 			icon = 6
 			read = False
