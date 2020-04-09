@@ -295,18 +295,26 @@ GAME
 			cost = 5
 			part = fuelTankSmallFlat
 			part = liquidEngine2
+			part = solidBooster.v2
+			part = solidBooster
 		}
 		Tech
 		{
 			id = generalRocketry
 			state = Available
 			cost = 20
+			part = liquidEngine
+			part = solidBooster1-1
+			part = fuelTankSmall
 		}
 		Tech
 		{
 			id = stability
 			state = Available
 			cost = 18
+			part = noseCone
+			part = winglet
+			part = radialDecoupler
 		}
 		Tech
 		{
@@ -316,6 +324,7 @@ GAME
 			part = Decoupler.1
 			part = sensorThermometer
 			part = SurfAntenna
+			part = longAntenna
 		}
 		Tech
 		{
@@ -327,6 +336,10 @@ GAME
 			part = parachuteRadial
 			part = HeatShield0
 			part = HeatShield1
+			part = radPanelSm
+			part = ServiceBay.125
+			part = ServiceBay.125.v2
+			part = miniLandingLeg
 		}
 		Tech
 		{
@@ -334,6 +347,9 @@ GAME
 			state = Available
 			cost = 45
 			part = liquidEngine3.v2
+			part = liquidEngine3
+			part = radialLiquidEngine1-2
+			part = fuelTank
 		}
 		Tech
 		{
@@ -341,6 +357,11 @@ GAME
 			state = Available
 			cost = 45
 			part = strutConnector
+			part = MK1CrewCabin
+			part = Decoupler.2
+			part = Mk1FuselageStructural
+			part = launchClamp1
+			part = largeAdapter
 		}
 		Tech
 		{
@@ -348,6 +369,19 @@ GAME
 			state = Available
 			cost = 45
 			part = miniJetEngine
+			part = sweptWing
+			part = tailfin
+			part = airplaneTail
+			part = miniIntake
+			part = wingConnector2
+			part = wingConnector5
+			part = StandardCtrlSrf
+			part = structuralWing3
+			part = Mark1Cockpit
+			part = miniFuselage
+			part = MK1Fuselage
+			part = GearFixed
+			part = GearFree
 		}
 		Tech
 		{
@@ -355,6 +389,8 @@ GAME
 			state = Available
 			cost = 45
 			part = sasModule
+			part = R8winglet
+			part = winglet3
 		}
 		Tech
 		{
@@ -365,6 +401,10 @@ GAME
 			part = batteryPack
 			part = science.module
 			part = ScienceBox
+			part = probeCoreSphere
+			part = radPanelEdge
+			part = radPanelLg
+			part = HighGainAntenna5
 		}
 		Science
 		{
@@ -820,7 +860,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = -1000
+		update = 2219.2583203108197
 		version = 1.9.1
 		WEIGHTS
 		{
@@ -1655,7 +1695,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.9.1
-		UT = 2214.9783203108236
+		UT = 2220.5183203108186
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
