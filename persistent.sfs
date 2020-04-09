@@ -77,7 +77,7 @@ GAME
 			AutoHireCrews = False
 			MissingCrewsRespawn = False
 			RespawnTimer = 7200
-			BypassEntryPurchaseAfterResearch = False
+			BypassEntryPurchaseAfterResearch = True
 			AllowStockVessels = False
 			IndestructibleFacilities = False
 			ResourceAbundance = 1
