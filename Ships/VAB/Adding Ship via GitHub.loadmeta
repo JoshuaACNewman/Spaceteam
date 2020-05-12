@@ -29,4 +29,4 @@ partModules = FlagDecal
 partModules = ModuleTripLogger
 partModules = ModuleParachute
 partModules = ModuleDragModifier
-saveMD5 = 96df29560d06d7db2254fa52e051af1a
+saveMD5 = 64f2305f1550bb8b2139dda1649a1f2c
