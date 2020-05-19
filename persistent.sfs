@@ -15,8 +15,8 @@ GAME
 	defaultVABLaunchSite = LaunchPad
 	defaultSPHLaunchSite = Runway
 	modded = True
-	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
-	versionFull = 1.9.1.2788 (WindowsPlayer x64)
+	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  - 
+	versionFull = 1.9.1.2788 (OSXPlayer)
 	versionCreated = 1.9.1.2788 (OSXPlayer)
 	PARAMETERS
 	{
@@ -871,7 +871,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 2713.3183203103704
+		update = 3856.9783203093302
 		version = 1.9.1
 		WEIGHTS
 		{
@@ -1706,7 +1706,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.9.1
-		UT = 2713.9583203103698
+		UT = 3857.0983203093301
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
