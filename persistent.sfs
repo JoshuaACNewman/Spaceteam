@@ -447,7 +447,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 479.579742
+		sci = 49.5797424
 		Tech
 		{
 			id = start
@@ -579,6 +579,70 @@ GAME
 			part = radPanelEdge
 			part = radPanelLg
 			part = HighGainAntenna5
+		}
+		Tech
+		{
+			id = aerodynamicSystems
+			state = Available
+			cost = 90
+			part = RotorEngine.02
+			part = mediumPropeller
+			part = mediumHeliBlade
+			part = mediumFanBlade
+			part = noseconeVS
+			part = noseconeTiny
+			part = nacelleBody
+			part = JetEngine
+			part = Mark2Cockpit
+			part = sweptWing2
+			part = structuralWing2
+			part = wingConnector3
+			part = wingConnector
+			part = airplaneTailB
+			part = standardNoseCone
+			part = noseConeAdapter
+			part = CircularIntake
+			part = airScoop
+		}
+		Tech
+		{
+			id = electrics
+			state = Available
+			cost = 90
+			part = DeployedSolarPanel
+			part = spotLight2
+			part = spotLight1
+			part = foldingRadSmall
+			part = batteryBankMini
+			part = solarPanels5
+			part = probeCoreOcto.v2
+			part = probeCoreOcto
+		}
+		Tech
+		{
+			id = landing
+			state = Available
+			cost = 90
+			part = SmallGearBay
+			part = parachuteLarge
+			part = LaunchEscapeSystem
+			part = landingLeg1
+			part = HeatShield2
+		}
+		Tech
+		{
+			id = supersonicFlight
+			state = Available
+			cost = 160
+			part = mk2CargoBayS
+			part = mk2FuselageShortLiquid
+			part = mk2FuselageShortLFO
+			part = mk2SpacePlaneAdapter
+			part = mk2.1m.Bicoupler
+			part = turboJet
+			part = mk2Cockpit.Standard
+			part = structuralWing
+			part = wingStrake
 		}
 		Science
 		{
@@ -1012,7 +1076,7 @@ GAME
 		Science
 		{
 			id = recovery@MunOrbited
-			title = Recovery of a vessel returned from orbit around Mun
+			title = Recovery of a vessel returned from orbit around The Mun
 			dsc = 1
 			scv = 0.166666701
 			sbv = 16
@@ -1359,7 +1423,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 582770.55026597227
+		update = 582821.33026601956
 		version = 1.9.1
 		WEIGHTS
 		{
@@ -2207,7 +2271,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.9.1
-		UT = 582770.55026597227
+		UT = 582823.83026602189
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
