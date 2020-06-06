@@ -61,4 +61,4 @@ partModules = CModuleStrut
 partModules = ModuleAnchoredDecoupler
 partModules = LaunchClamp
 partModules = ModuleGenerator
-saveMD5 = cfa0748a3caa8aa6a2c16f3e823a9c98
+saveMD5 = c18b6b19ad8a849d0e7e8fff6ab5b470

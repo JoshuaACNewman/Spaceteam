@@ -33,4 +33,4 @@ partModules = ModuleTestSubject
 partModules = ModuleAnchoredDecoupler
 partModules = ModuleAnimateGeneric
 partModules = ModuleEnviroSensor
-saveMD5 = 22119694e48279953c34fc4836c1cea4
+saveMD5 = cd2baa9b9df599353f9e323a35cc3008
